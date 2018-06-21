@@ -1,0 +1,44 @@
+
+.bootcamp {
+  &__header {
+    padding: 1em;
+    position: sticky;
+    top: 0;
+    background: #007da6;
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  &__menu {
+    &__list {
+      list-style: none;
+    }
+
+    & &__item {
+      display: inline-block;
+    }
+  }
+
+  &__content {
+    background: #f3f3f3;
+    padding: 1em;
+  }
+
+  &__sidebar {
+    background: #9adaf0;
+    padding: 1em;
+
+    ul {
+      list-style: none;
+    }
+  }
+
+  &__footer {
+    border-top: 3px solid #333;
+    background: #999;
+    padding: 2em;
+  }
+}
